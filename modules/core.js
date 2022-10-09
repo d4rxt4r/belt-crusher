@@ -36,7 +36,7 @@ const init = () => {
         render: {
             fillStyle: '#C8B7A6',
             sprite: {
-                texture: '../img/bg.png',
+                texture: './../img/bg.png',
                 xScale: 0.8,
                 yScale: 1,
                 xOffset: -0.2,
@@ -90,7 +90,7 @@ const initCrusher = (engine) => {
         isSensor: true,
         render: {
             sprite: {
-                texture: '../img/tube3.png',
+                texture: './../img/tube3.png',
                 xScale: 0.8,
                 yScale: 0.35,
                 yOffset: 0.03
@@ -107,7 +107,7 @@ const initCrusher = (engine) => {
             Bodies.rectangle($.WIDTH / 2, 50, 50, 600, {
                 render: {
                     sprite: {
-                        texture: '../img/tube2.png',
+                        texture: './../img/tube2.png',
                         xScale: 0.5,
                         yScale: 0.5,
                         yOffset: -0.05
@@ -124,7 +124,7 @@ const initCrusher = (engine) => {
             isStatic: true,
             render: {
                 sprite: {
-                    texture: '../img/tube.png',
+                    texture: './../img/tube.png',
                     xScale: 0.6,
                     yScale: 1
                 }

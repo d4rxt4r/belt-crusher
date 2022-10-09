@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Belt Crusher</title>
+
+        <script src="lib/matter.js"></script>
+
+        <style>
+            html,
+            body {
+                margin: 0;
+                position: relative;
+                background: #353b39;
+            }
+
+            .counter {
+                color: white;
+                position: absolute;
+                width: 400px;
+                text-align: left;
+                padding-left: 10px;
+                top: 20px;
+                font-size: 24px;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="counter">Crushed: <span id="counter">0</span></div>
+
+        <script src="app.js" type="module"></script>
+    </body>
+</html>

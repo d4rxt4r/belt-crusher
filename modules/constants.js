@@ -3,10 +3,17 @@ const DEBUG = true;
 const WIDTH = 400;
 const HEIGHT = 700;
 
+const BG_IMG = 'img/bg.png';
 const BELT_IMG = 'img/belt.png';
 const GROUND_LABEL = {
     STAGE: 'STAGE_GROUND',
     SENSOR: 'GROUND_SENSOR'
+};
+
+const TUBE = {
+    TOP: 'img/tube.png',
+    MIDDLE: 'img/tube2.png',
+    BOTTOM: 'img/tube3.png'
 };
 
 const FILTER = {
@@ -36,4 +43,4 @@ const PARTICLE_IMG = [
 
 const counter = document.getElementById('counter');
 
-export { DEBUG, WIDTH, HEIGHT, GROUND_LABEL, FILTER, HEAD, PARTICLE, BELT_IMG, PARTICLE_IMG, counter };
+export { DEBUG, WIDTH, HEIGHT, GROUND_LABEL, FILTER, HEAD, PARTICLE, BELT_IMG, PARTICLE_IMG, TUBE, BG_IMG, counter };

@@ -1,4 +1,4 @@
-const DEBUG = true;
+const DEBUG = false;
 
 const WIDTH = 400;
 const HEIGHT = 700;
